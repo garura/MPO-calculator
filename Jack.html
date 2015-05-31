@@ -1,0 +1,50 @@
+
+
+<!DOCTYPE html>
+<html>
+        <head>
+                <meta charset="utf-8">
+                <title>MPO Calculator</title>
+        </head>
+        <body>
+                <h3>MPO Calculator (version 1.0)</h2>
+                <p style="display:inline">Drug Name / ID&nbsp</p>
+                <input id="name" style="display:inline" type="text">
+                <br><br>
+                <p style="display:inline">Enter ClogP&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</p>
+                <input id="clogp" style="display:inline" size="5" type="text">
+                <p id='clogpc' style="display:inline"></p>
+                <br><br>
+                <p style="display:inline">Enter ClogD&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</p>
+                <input id="clogd" style="display:inline" size="5" type="text">
+                <p id='clogdc' style="display:inline"></p>
+                <br><br>
+                <p style="display:inline">Enter MW&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</p>
+                <input id="mw" style="display:inline" size="5" type="text">
+                <p id='mwc' style="display:inline"></p>
+                <br><br>
+                <p style="display:inline">Enter TPSA&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</p>
+                <input id="tpsa" style="display:inline" size="5" type="text">
+                <p id='tpsac' style="display:inline"></p>
+                <br><br>
+                <p style="display:inline">Enter HBD&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</p>
+                <input id="hbd" style="display:inline" size="5" type="text">
+                <p id='hbdc' style="display:inline"></p>
+                <br><br>
+                <p style="display:inline">Enter pKa&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</p>
+                <input id="pka" style="display:inline" size="5" type="text">
+                <p id='pkac' style="display:inline"></p>
+                <br><br>
+                <p id='mpo' style="display:inline">MPO: </p>
+                <p id='total' style="display:inline"></p>
+                <br><br>
+                <input id="calculate" type="button" value="Calculate">
+                <input id="save" type="button" value="Save to History">
+                <p id='total' style="display:inline"></p>
+                <br>
+                <h3> MPO Calculation History</h3>
+                <p id='history'></p>
+                <script defer src="../scripts/mpo-calculator/mpocalc.js"></script>
+        </body>
+
+</html>
